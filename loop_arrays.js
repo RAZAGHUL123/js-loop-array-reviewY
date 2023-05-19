@@ -4,6 +4,18 @@ function removeLastElement(arr) {
   // Return the modified array.
   
   // Write your code here
+  function removeLastElement(arr) {
+  arr.pop();
+  return arr;
+}
+
+// Testing the function
+let array = [1, 2, 3, 4, 5];
+console.log("Original array:", array);
+
+let modifiedArray = removeLastElement(array);
+console.log("Modified array:", modifiedArray);
+
 }
 
 // Challenge 2: Remove First Element
